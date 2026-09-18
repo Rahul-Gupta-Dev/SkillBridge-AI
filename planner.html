@@ -1,81 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Study Planner</title>
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Study Planner</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">S</div>
+      <span>SkillBridge AI</span>
+    </div>
 
-<header>
-<h2>SkillBridge AI</h2>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="courses.html">Courses</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="chatbot.html">Chatbot</a>
+    </nav>
+  </header>
 
-<nav>
-<a href="dashboard.html">Dashboard</a>
-<a href="courses.html">My Courses</a>
-<a href="quiz.html">Quiz</a>
-<a href="planner.html">Study Planner</a>
-<a href="chatbot.html">Chatbot</a>
-</nav>
+  <main class="planner">
+    <h1>📅 Daily Study Planner</h1>
 
-</header>
+    <div class="planner-card">
+      <h2>Today's Tasks</h2>
+      <ul>
+        <li>✅ Complete Python Variables</li>
+        <li>📖 Read HTML Basics</li>
+        <li>📝 Attempt AI Quiz</li>
+        <li>🤖 Ask one question to AI Chatbot</li>
+        <li>📚 Revise yesterday's topics</li>
+      </ul>
+    </div>
 
-<section class="planner">
-
-<h1>📅 Daily Study Planner</h1>
-
-<div class="planner-card">
-
-<h2>Today's Tasks</h2>
-
-<ul>
-<li>✅ Complete Python Variables</li>
-<li>📖 Read HTML Basics</li>
-<li>📝 Attempt AI Quiz</li>
-<li>🤖 Ask one question to AI Chatbot</li>
-<li>📚 Revise yesterday's topics</li>
-</ul>
-
-</div>
-
-<div class="planner-card">
-
-<h2>Study Time Table</h2>
-
-<table>
-
-<tr>
-<th>Time</th>
-<th>Subject</th>
-</tr>
-
-<tr>
-<td>9:00 AM</td>
-<td>Python</td>
-</tr>
-
-<tr>
-<td>11:00 AM</td>
-<td>HTML & CSS</td>
-</tr>
-
-<tr>
-<td>2:00 PM</td>
-<td>AI Basics</td>
-</tr>
-
-<tr>
-<td>5:00 PM</td>
-<td>Quiz Practice</td>
-</tr>
-
-</table>
-
-</div>
-
-</section>
-
+    <div class="planner-card">
+      <h2>Study Time Table</h2>
+      <table>
+        <tr>
+          <th>Time</th>
+          <th>Subject</th>
+        </tr>
+        <tr>
+          <td>9:00 AM</td>
+          <td>Python</td>
+        </tr>
+        <tr>
+          <td>11:00 AM</td>
+          <td>HTML & CSS</td>
+        </tr>
+        <tr>
+          <td>2:00 PM</td>
+          <td>AI Basics</td>
+        </tr>
+        <tr>
+          <td>5:00 PM</td>
+          <td>Quiz Practice</td>
+        </tr>
+      </table>
+    </div>
+  </main>
 </body>
 </html>

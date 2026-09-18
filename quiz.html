@@ -1,50 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Quiz</title>
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Quiz</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">S</div>
+      <span>SkillBridge AI</span>
+    </div>
 
-<header>
-<h2>SkillBridge AI</h2>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="courses.html">Courses</a>
+      <a href="planner.html">Planner</a>
+      <a href="chatbot.html">Chatbot</a>
+    </nav>
+  </header>
 
-<nav>
-<a href="dashboard.html">Dashboard</a>
-<a href="courses.html">My Courses</a>
-<a href="quiz.html">Quiz</a>
-<a href="planner.html">Study Planner</a>
-<a href="chatbot.html">Chatbot</a>
-</nav>
+  <main class="quiz">
+    <h1>AI Quiz</h1>
 
-</header>
+    <div class="quiz-box">
+      <h2>Question 1</h2>
+      <p>Which language is mainly used for AI and Machine Learning?</p>
 
-<section class="quiz">
+      <label><input type="radio" name="q1" /> Python</label><br /><br />
+      <label><input type="radio" name="q1" /> C</label><br /><br />
+      <label><input type="radio" name="q1" /> HTML</label><br /><br />
+      <label><input type="radio" name="q1" /> CSS</label><br /><br />
 
-<h1>AI Quiz</h1>
-
-<div class="quiz-box">
-
-<h2>Question 1</h2>
-
-<p>Which language is mainly used for AI and Machine Learning?</p>
-
-<label><input type="radio" name="q1"> Python</label><br><br>
-
-<label><input type="radio" name="q1"> C</label><br><br>
-
-<label><input type="radio" name="q1"> HTML</label><br><br>
-
-<label><input type="radio" name="q1"> CSS</label><br><br>
-
-<button>Submit Answer</button>
-
-</div>
-
-</section>
-
+      <button>Submit Answer</button>
+    </div>
+  </main>
 </body>
 </html>

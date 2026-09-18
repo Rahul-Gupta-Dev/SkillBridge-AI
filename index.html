@@ -1,139 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="css/style.css">  
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SkillBridge AI</title>
-
-<link rel="stylesheet" href="css/style.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkillBridge AI</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<link rel="stylesheet" href="css/style.css">
-<script src="js/script.js"></script>
 <body>
-
-<header>
-<section class="hero">
-    <h1>Welcome to SkillBridge AI</h1>
-    <p>Learn new skills with AI-powered courses, quizzes, chatbot, and study planner.</p>
-    <a href="courses.html" class="btn">Explore Courses</a>
-</section>
-
-<section class="cards">
-    <div class="card">
-        <h3>📚 Courses</h3>
-        <p>Learn programming, AI, and web development.</p>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">S</div>
+      <span>SkillBridge AI</span>
     </div>
 
-    <div class="card">
-        <h3>📝 Quiz</h3>
-        <p>Test your knowledge with interactive quizzes.</p>
-    </div>
-
-    <div class="card">
-        <h3>🤖 AI Chatbot</h3>
-        <p>Get instant answers to your learning questions.</p>
-    </div>
-
-    <div class="card">
-        <h3>📅 Study Planner</h3>
-        <p>Plan your daily study schedule effectively.</p>
-    </div>
-</section>
-    <div class="logo">
-        <h2>SkillBridge AI</h2>
-    </div>
-
-    <nav>
-
-        <a href="#">Home</a>
-
-        <a href="#">Courses</a>
-
-        <a href="#">Quiz</a>
-
-       <a href="#">Planner</a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html" class="active">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="planner.html">Planner</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="login.html" class="nav-button">Login</a>
     </nav>
-</header>
-<!-- Baaki code -->
+  </header>
 
-<script src="js/script.js"></script>
-</body>
-</html>
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <span class="eyebrow">Smart learning for the future</span>
+        <h1>AI-powered education that grows with you.</h1>
+        <p>
+          Learn faster with guided courses, smart quizzes, personalized study planning,
+          and a friendly AI assistant built to support your learning journey.
+        </p>
 
-<section class="hero">
+        <div class="cta-row">
+          <a href="courses.html" class="btn btn-primary">Explore Courses</a>
+          <a href="login.html" class="btn btn-secondary">Get Started</a>
+        </div>
 
-<h1>AI in Education & Skilling</h1>
+        <ul class="hero-stats" aria-label="Platform statistics">
+          <li>
+            <strong>12+</strong>
+            <span>Courses</span>
+          </li>
+          <li>
+            <strong>85%</strong>
+            <span>Progress</span>
+          </li>
+          <li>
+            <strong>24/7</strong>
+            <span>AI Support</span>
+          </li>
+        </ul>
+      </div>
 
-<p>
-Personalized Learning • AI Quiz • Study Planner • Career Guidance
-</p>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="glass-card progress-card">
+          <div class="mini-header">
+            <span>Learning path</span>
+            <span class="tag">Live</span>
+          </div>
+          <div class="progress-item">
+            <label>Python Basics</label>
+            <div class="progress-bar"><span style="width: 82%"></span></div>
+          </div>
+          <div class="progress-item">
+            <label>AI Foundations</label>
+            <div class="progress-bar"><span style="width: 68%"></span></div>
+          </div>
+          <div class="progress-item">
+            <label>Web Design</label>
+            <div class="progress-bar"><span style="width: 91%"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<button>Get Started</button>
+    <section class="tools">
+      <div class="section-header">
+        <span class="eyebrow">What you can do</span>
+        <h2>Everything you need to learn smarter</h2>
+      </div>
 
-</section>
+      <div class="cards">
+        <article class="card highlight">
+          <h3>📚 Courses</h3>
+          <p>Access structured learning paths in tech, AI, and digital skills.</p>
+        </article>
 
-<section class="features">
+        <article class="card">
+          <h3>📝 Quiz</h3>
+          <p>Test your understanding and reinforce what you’ve learned.</p>
+        </article>
 
-<h2>Our Features</h2>
+        <article class="card">
+          <h3>🤖 AI Chatbot</h3>
+          <p>Get instant help for questions, doubts, and quick explanations.</p>
+        </article>
 
-<div class="card">
+        <article class="card">
+          <h3>📅 Study Planner</h3>
+          <p>Stay organized with a clear and consistent daily learning routine.</p>
+        </article>
+      </div>
+    </section>
 
-<h3>📚 My Courses</h3>
+    <section class="features">
+      <div class="section-header">
+        <span class="eyebrow">Platform features</span>
+        <h2>Designed to keep your momentum high</h2>
+      </div>
 
-<p>Access all enrolled courses in one place.</p>
+      <div class="feature-grid">
+        <article class="feature-item">
+          <h3>📊 Progress Tracker</h3>
+          <p>Monitor your achievements and identify areas to focus on next.</p>
+        </article>
 
-</div>
+        <article class="feature-item">
+          <h3>🎯 Career Guidance</h3>
+          <p>Receive personalized suggestions based on your learning goals.</p>
+        </article>
 
-<div class="card">
+        <article class="feature-item">
+          <h3>🧠 AI Quiz</h3>
+          <p>Practice with adaptive questions that match your current skill level.</p>
+        </article>
 
-<h3>📝 AI Quiz</h3>
+        <article class="feature-item">
+          <h3>🚀 Personalized Learning</h3>
+          <p>Create a study flow that fits your pace, schedule, and objectives.</p>
+        </article>
 
-<p>Practice with AI generated quizzes.</p>
+        <article class="feature-item">
+          <h3>📚 My Courses</h3>
+          <p>Keep everything organized in one place, from lessons to milestones.</p>
+        </article>
 
-</div>
+        <article class="feature-item">
+          <h3>💬 Smart Support</h3>
+          <p>Ask learning questions anytime and get quick, actionable answers.</p>
+        </article>
+      </div>
+    </section>
+  </main>
 
-<div class="card">
+  <footer class="site-footer">
+    <p>© 2026 SkillBridge AI | Lenovo LEAP Hackathon</p>
+  </footer>
 
-<h3>🤖 AI Chatbot</h3>
-
-<p>Ask doubts anytime using AI.</p>
-
-</div>
-
-<div class="card">
-
-<h3>📅 Study Planner</h3>
-
-<p>Plan your daily study schedule.</p>
-
-</div>
-
-<div class="card">
-
-<h3>📊 Progress Tracker</h3>
-
-<p>Track your learning progress.</p>
-
-</div>
-
-<div class="card">
-
-<h3>🎯 Career Guidance</h3>
-
-<p>Get AI-powered career recommendations.</p>
-
-</div>
-
-</section>
-
-<footer>
-
-<p>© 2026 SkillBridge AI | Lenovo LEAP Hackathon</p>
-
-</footer>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
